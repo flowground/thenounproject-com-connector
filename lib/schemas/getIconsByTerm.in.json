@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "term": {
+            "required": true,
+            "type": "string"
+        },
+        "limit_to_public_domain": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "limit": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "offset": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "page": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        }
+    }
+}

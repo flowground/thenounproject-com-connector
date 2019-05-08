@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "user_id": {
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+        },
+        "slug": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

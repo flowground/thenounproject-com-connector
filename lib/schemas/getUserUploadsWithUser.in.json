@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "username": {
+            "required": true,
+            "type": "string"
+        },
+        "limit": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "offset": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "page": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        }
+    }
+}
